@@ -1,0 +1,99 @@
+footer{
+    width: 1512px;
+    height: 350px;
+    background-color: #9BCC9E;
+    margin-left: -8px;
+    margin-top: 50px;
+}
+
+.all_items_footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.h_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+p{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    line-height:3ch;
+}
+.h_contacts{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.google_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p_contacts{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p_contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.one_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.two_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo_contacts{
+    display: flex;
+    justify-content: space-evenly;
+}

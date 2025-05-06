@@ -1,0 +1,141 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.h_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+p{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    line-height:3ch;
+}
+
+.h_price{
+    display: flex;
+    justify-content: center;
+}
+
+.kids_price{
+    width: 390px;
+    height: 317px;
+    background-color: #F0B4BA;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:left;
+}
+
+.p_kids{
+    font-size: 2cap;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.p_two_kids{
+    margin-top: -20px;
+}
+
+.people_price{
+    width: 390px;
+    height: 317px;
+    background-color: #F0B4BA;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:left;
+}
+
+.p_people{
+    font-size: 2cap;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.all_items_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo_price{
+    margin-top: 10px;
+    position:relative;
+}
+
+.price_two{
+    width: 1241px;
+    height: 317px;
+    background-color: #F0B4BA;
+    border-radius: 20px;
+}
+
+.p_price{
+    font-size: 1pc;
+    margin-top: -10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_and_h_price{
+    margin-left: 30px;
+}
+
+.p_two_price{
+    margin-right: 30px;
+    margin-top: 140px;
+}
+
+.all_items_price_two{
+    display: flex;
+    justify-content: center;
+    margin-top: -230px;
+}
+
+footer{
+    width: 1512px;
+    height: 350px;
+    background-color: #9BCC9E;
+    margin-left: -8px;
+    margin-top: 50px;
+}
+
+.all_items_footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+body{
+    height: 1000px;
+}

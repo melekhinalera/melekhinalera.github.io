@@ -1,0 +1,62 @@
+h2{
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.h_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+p{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    line-height:3ch;
+}
+
+.h_animal{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.animal{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+footer{
+    width: 1512px;
+    height: 350px;
+    background-color: #9BCC9E;
+    margin-left: -8px;
+    margin-top: 50px;
+}
+
+.all_items_footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
